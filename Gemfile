@@ -30,3 +30,7 @@ group :development do
   gem 'spring'
   gem 'listen'
 end
+
+group :test do
+  gem 'shoulda-matchers'
+end
